@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+  /* COLOR PRIMARIO */
+  --primary-color-rojoBrillante: rgb(242, 95, 58);
+  --primary-color-azulOscuro: rgb(35, 44, 81);
+  
+  /* COLOR NEUTRO */
+  --neutral-color-azulGrisáceoOscuro: rgb(143, 148, 167);
+  --neutral-color-azulMuyOscuro:rgba(35, 44, 80, 1);
+
+  --neutral-color-rojoMuyPalido: rgb(255, 239, 234);
+  --neutral-color-grisClaro: rgb(249, 249, 249);
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150%;
+}
+
+nav .lista{
+    display: flex;
+    display: none;
+}
+    
+header .empezar{
+    display: flex;
+    display: none;
+}
+
+.logo >img{
+    padding: 40px 0px 0px 40px;
+    width: 120px;
+}
+
+.burger >img{
+    padding: 35px 20px 0px 0px;
+    width: 40px;
+}
+
+/* MAIN */
+
+/* Foto */
+.estadistica{
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 60px;
+    width: 90%;
+}
+
+/* Titulos */
+h1, h2, h3, h4{
+    color: var(--primary-color-azulOscuro);
+}
+
+h1, h2{
+    font-family: Be Vietnam Pro;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 16px;
+    background-color: #fdb9a87a;
+    border-radius: 30px 0px 0px 30px;
+    color: #323851;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+/* Textos */
+
+.parrafo1{
+    font-size: 16px;
+    text-align: center;
+    color: #B3B2B7;
+    padding: 20px 30px 20px 30px;
+    line-height: 30px;
+}
+
+.parrafo2{
+    font-size: 16px;
+    color: #B3B2B7;
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px 30px 30px 40px;
+}
+
+.parrafo3{
+    font-size: 16px;
+    color: #8C8C94;
+    text-align: center;
+}
+
+/* Botones */
+
+main .boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main .empezar{
+    padding: 15px;
+    width: 35%;
+    background-color: #F3603B;
+    color: #FFFFFF;
+    font-size: 14px;
+    box-shadow: 0px 4px 8px rgb(242 97 59 / 50%);
+    border-radius: 50px;
+    border: solid 1px #F3603B;
+}
+
+.enumeracion{
+    font-size: 16px;
+    padding: 10px 15px;
+    margin-left: -9px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F3603B;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:376px) {
+    
+}
