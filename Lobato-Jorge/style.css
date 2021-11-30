@@ -123,9 +123,11 @@ h4{
 }
 
 .parrafo3{
-    font-size: 16px;
+    font-size: 12px;
     color: #8C8C94;
     text-align: center;
+    padding: 30px;
+    margin-top: 20px;
 }
 
 /* Secciones */
@@ -193,7 +195,6 @@ footer{
 
 .email{
     font-size: 13px;
-    color: #A0A0A0;
     margin-top: 40px;
     margin-left: 30px;
     width: 60%;
@@ -201,6 +202,10 @@ footer{
     text-align: start;
     border-radius: 50px;
     border: solid 1px #FFFFFF;
+}
+
+.email::placeholder{
+    color: #A0A0A0;
 }
 
 .go{
@@ -214,7 +219,7 @@ footer{
     border: none;
 }
 
-  /* Navegador */
+/* Navegador */
 
 .lista{
     display: flex;
@@ -240,10 +245,18 @@ footer{
     color: white;
 }
 
+/*Redes*/
+
 .redes{
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    height: 30px;
+    margin-bottom: 50px;
+}
+
+.logo2{
+    margin-left: 110px;
+    padding-top: 20px;
 }
 
 
