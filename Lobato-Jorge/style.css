@@ -114,7 +114,7 @@ h4{
     line-height: 30px;
 }
 
-.parrafo2{
+.enumeracion2{
     font-size: 16px;
     color: #B3B2B7;
     text-align: justify;
@@ -308,12 +308,6 @@ footer{
 
     /* MAIN */
 
-    main{
-        display: flex;
-    }
-
-    
-
     h1{
         text-align: start;
         font-size: 51px;
@@ -337,6 +331,28 @@ footer{
 
     main .seccion1{
         display: flex;
-        flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    main .estadistica2{
+        width: 50%;
+        order: -1;
+    }
+
+    main .seccion2{
+        display: flex;
+    }
+
+    main .seccion3{
+        
+        flex-direction: row;
+        width: 50%;
+    }
+
+    .parrafo2{
+        width: 300px;
+    }
+
+    .perfiles{
+        display: flex;
     }
