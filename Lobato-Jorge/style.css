@@ -273,7 +273,6 @@ footer{
     }
 
     .logo >img{
-        height: 70px;
         width: 220px;
         margin-top: 60px;
         margin-left: 100px;
@@ -282,9 +281,13 @@ footer{
     nav .lista{
         display: flex;
         gap: 25px;
-        margin-top: 85px;
-        list-style:none;
+        margin-top: 115px;
+        padding: 20px 48px 21px 0px;
         }
+
+    .azul{
+        color: #242E52;
+    }
         
     header .empezar{
         display: flex;
@@ -307,16 +310,33 @@ footer{
 
     main{
         display: flex;
-        align-items:center;
-        justify-content: space-between;
     }
+
+    
 
     h1{
         text-align: start;
-        margin-bottom: 750px;
+        font-size: 51px;
+        margin-top: 150px;
+        margin-left: 76px;
+        padding-right: 242px;
+        width: 127%;
+    }
+
+    .parrafo1{
+        color: #000000;
+        font-size: 16px;
+        text-align: start;
+        color: #B3B2B7;
+        padding: 20px 30px 20px 30px;
+        margin-left: 48px;
+        margin-right: 88px;
+        line-height: 30px;
+        font-size: 16px;
     }
 
     main .seccion1{
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
