@@ -122,6 +122,14 @@ h4{
     margin: 20px 30px 30px 40px;
 }
 
+.parrafo2{
+    font-size: 16px;
+    color: #B3B2B7;
+    text-align: justify;
+    line-height: 25px;
+    margin: 20px 30px 30px 40px;
+}
+
 .parrafo3{
     font-size: 12px;
     color: #8C8C94;
@@ -259,7 +267,7 @@ footer{
     padding-top: 20px;
 }
 
-
+/* MQ */
 
 @media screen and (min-width:376px) {
     
@@ -310,28 +318,42 @@ footer{
 
     h1{
         text-align: start;
-        font-size: 51px;
+        font-size: 57px;
         margin-top: 150px;
-        margin-left: 76px;
+        margin-left: 113px;
         padding-right: 242px;
         width: 127%;
     }
 
     .parrafo1{
         color: #000000;
-        font-size: 16px;
         text-align: start;
-        color: #B3B2B7;
-        padding: 20px 30px 20px 30px;
-        margin-left: 48px;
+        margin-left: 85px;
         margin-right: 88px;
-        line-height: 30px;
-        font-size: 16px;
+        font-size: 17px;
+        width: 61%;
     }
 
     main .seccion1{
         display: flex;
         justify-content: space-evenly;
+    }
+
+    main .boton{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    main .empezar{
+        padding: 15px;
+        width: 19%;
+        background-color: #F3603B;
+        color: #FFFFFF;
+        font-size: 14px;
+        box-shadow: 0px 4px 8px rgb(242 97 59 / 50%);
+        border-radius: 50px;
+        border: solid 1px #F3603B;
+        margin-left: 112px;
     }
 
     main .estadistica2{
