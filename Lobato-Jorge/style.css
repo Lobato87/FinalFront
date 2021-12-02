@@ -320,15 +320,41 @@ footer{
         text-align: start;
         font-size: 57px;
         margin-top: 150px;
-        margin-left: 113px;
+        margin-left: 140px;
         padding-right: 242px;
         width: 127%;
+    }
+
+    h2{
+        margin-left: -130px;
+    }
+
+    h3{
+        background-color: white;
+        padding: 10px;
+        margin-left: 120px;
+        margin-top: -6px;
+    }
+
+    .enumeracion{
+        padding: 10px 27px;
+        margin-left: -34px;
+        background: #F3603B;
+        border-radius: 30px;
+    }
+
+    .enumeracion2{
+        color: #B3B2B7;
+        text-align: justify;
+        line-height: 25px;
+        margin: 20px 30px 30px 175px;
+        width: 435px;
     }
 
     .parrafo1{
         color: #000000;
         text-align: start;
-        margin-left: 85px;
+        margin-left: 111px;
         margin-right: 88px;
         font-size: 17px;
         width: 61%;
@@ -342,6 +368,7 @@ footer{
     main .boton{
         display: flex;
         justify-content: flex-start;
+        margin-left: 27px;
     }
 
     main .empezar{
@@ -354,6 +381,12 @@ footer{
         border-radius: 50px;
         border: solid 1px #F3603B;
         margin-left: 112px;
+    }
+
+    main .estadistica{
+        padding-top: 51px;
+        height: 650px;
+        margin-bottom: 100px;
     }
 
     main .estadistica2{
