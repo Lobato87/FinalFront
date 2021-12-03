@@ -361,6 +361,8 @@ footer{
 
     main .titulosec3{
         width: 611px;
+        margin-top: 100px;
+        margin-bottom: 75px;
     }
 
     .enumeracion{
@@ -402,6 +404,8 @@ footer{
         display: flex;
         justify-content: flex-start;
         margin-left: 520px;
+        margin-top: 70px;
+        margin-bottom: 200px;
         width: 110%;
     }
 
@@ -415,6 +419,14 @@ footer{
         border-radius: 50px;
         border: solid 1px #F3603B;
         margin-left: 112px;
+    }
+
+    main .empezar2{
+        margin-bottom: 75px;
+        margin-top: 76px;
+        margin-left: 475px;
+        width: 160px;
+        height: 50px;
     }
 
     main .estadistica{
