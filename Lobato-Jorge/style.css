@@ -272,12 +272,17 @@ footer{
 @media screen and (min-width:376px) {
     
     /* HEADER */
+    
+    body{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 
     header{
         display: flex;
         align-items:center;
         justify-content: space-between;
-        width: 80%;
+        width: 100%;
     }
 
     .logo >img{
@@ -305,9 +310,9 @@ footer{
         border: solid 1px #F3603B;
         background-color: #F3603B;
         color: #FFFFFF;
-        padding: 15px 20px;
-        width: 12%;
-        margin-left: 20px;
+        padding: 15px 30px;
+        margin-left: 79px;
+        margin-right: 45px;
         }
 
     .burger >img{
@@ -326,7 +331,19 @@ footer{
     }
 
     h2{
-        margin-left: -130px;
+        margin-left: 403px;
+        font-size: 35px;
+        margin-bottom: 50px;
+        font-size: 35px;
+    }
+
+    main .titulo2{
+        margin-left: 138px;
+        margin-bottom: 25px;
+        font-size: 35px;
+        margin-top: -12px;
+        text-align: start;
+        width: 50%;
     }
 
     h3{
@@ -334,6 +351,14 @@ footer{
         padding: 10px;
         margin-left: 120px;
         margin-top: -6px;
+    }
+
+    main .titsec3{
+
+    }
+
+    main .titulosec3{
+
     }
 
     .enumeracion{
@@ -371,6 +396,12 @@ footer{
         margin-left: 27px;
     }
 
+    main .boton2{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 27px;
+    }
+
     main .empezar{
         padding: 15px;
         width: 19%;
@@ -383,10 +414,14 @@ footer{
         margin-left: 112px;
     }
 
+    
+
     main .estadistica{
         padding-top: 51px;
         height: 650px;
         margin-bottom: 100px;
+        padding-left: 60px;
+        width: 108%;
     }
 
     main .estadistica2{
@@ -399,7 +434,6 @@ footer{
     }
 
     main .seccion3{
-        
         flex-direction: row;
         width: 50%;
     }
@@ -410,4 +444,9 @@ footer{
 
     .perfiles{
         display: flex;
+        justify-content: space-between;
+        gap: 50px;
+        margin-left: 100px;
     }
+
+    /* ctrl + k + c (comentar) */
